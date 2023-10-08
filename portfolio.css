@@ -1,0 +1,215 @@
+#navbar-sub {
+    font-family: "ui-rounded";
+    font-weight: bold;
+    color: #f2f2f2;
+    font-size: 25px;
+    border-style: solid;
+    border-color: #cc00cc;
+    border-radius: 70px;
+    margin-right: 20px;
+}
+
+
+#navbar-logo {
+    color: #996600;
+    font-family: "fantasy";
+    font-weight: 900;
+    font-size: 32px;
+    font-stretch: 150%;
+
+}
+
+.back-container {
+    background-image: url("https://media4.giphy.com/media/l4FGq6DGOUASXGctG/giphy.gif?cid=ecf05e47ylh8r7grjlfbg9p0z841g4lhj23htqkpvr1xn1pf&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.name-paragraph {
+    color: white;
+    font-family: "fangsong";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.name-heading {
+    color: white;
+    font-family: "fantasy"
+        font-size:32px;
+    font-weight: bold;
+}
+
+.htmil-image {
+    height: 500px;
+    width: 400px;
+}
+
+.bg-container1 {
+    background-image: url("https://media1.giphy.com/media/pLWT5uluoL2ec/giphy.gif?cid=ecf05e47jnmti66jszs65sz4d5gdrumbt8rnj03vhuvh8zs8&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.project-image {
+    height: 300px;
+    width: 300px;
+}
+
+.project-heading {
+    color: #66ffcc;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.project-paragraph {
+    color: #ffffcc;
+    font-family: "math";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#project-link {
+    color: #0000cc;
+    font-family: "Roboto";
+    font-size: 34px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+.container2 {
+    background-image: url("https://media3.giphy.com/media/UqSD9d59OeAu9lxPqQ/giphy.gif?cid=ecf05e477er63gtdkt874e7fge4xn1e8x5zffzq294kh003l&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+    background-size: cover;
+}
+
+.sub-container {
+    background-image: url("https://media4.giphy.com/media/xT0GqimU9dTwmE5lra/giphy.gif?cid=ecf05e47665rgw662q6axckkf6ghbaome4xdxh7qhfevcca4&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.image-sun {
+    height: 200px;
+    width: 350px;
+}
+
+.heading-sub {
+    color: white;
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.certificate-heading {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.paragraph-sub {
+    color: #f0bbd1;
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: 200;
+}
+
+.image-sun1 {
+
+    height: 200px;
+    width: 350px;
+}
+
+.contact-heading {
+    color: #66ffcc;
+    font-family: " fantasy";
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.container3 {
+    background-image: url("https://media4.giphy.com/media/3oEduJ660ezNfF4uOs/giphy.gif?cid=ecf05e47bavqxx2548p92ci6mlxlokqqcyji2wp8fun49my6&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+    background-size: cover;
+    text-align: center;
+}
+
+.contact-patra {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.container-more {
+    background-image: url("https://media4.giphy.com/media/3o85xu5u6ZoEZhjhg4/giphy.gif?cid=ecf05e47do4y9nmhndyy9u4mmr0icjac8xjssuplgiyq644o&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+    background-size: cover;
+}
+
+.hireme-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: 300px;
+}
+
+.button {
+    background-color: #90960e;
+    color: white;
+    font-family: " Helvetica";
+    font-weight: bold;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.hire-me {
+    height: 250px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 80px;
+}
+
+.heading-about {
+    color: white;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container {
+    background-image: url("https://www.lsifloors.com/wp-content/uploads/2016/06/SC17-Black-1-1024x511.png");
+    background-size: cover;
+}
+
+.image-photo1 {
+    height: 250px;
+    border-radius: 120px;
+    width: 250px;
+}
+
+.paragraph-about {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.project1-image {
+    height: 60px;
+
+}
+
+.thank-you {
+    height: 300px;
+}
+
+.logo-image {
+    height: 100px;
+}
+
+.image {
+    height: 70px;
+    width: 50px;
+}
