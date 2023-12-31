@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="card-container">
+                <h1 class="heading">Anantapur Temples</h1>
+                <p class="paragraph">Collect moments, not things.</p>
+                <button class="button" onclick="display('sectionanantapurplaces')">Launch Adventure</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionanantapurplaces">
+        <div class="anantapur-places-bg-container">
+            <div class="anantapur-paces-card-container">
+                <h1 class="anantapur-places-heading">Anantapur places</h1>
+                <div class="anantapur-places-container1 d-flex flex-row justify-content-end" onclick="display('sectiondetailedview')">
+                    <div class="one-container d-flex flex-column">
+                        <h1 class="anantapur-places-heading2 text-center"> Penna Ahobilam</h1>
+                        <p class="anantapur-place-description ml-2 p-2">Penna Ahobilam temple, steeped in myth and legend, holds the divine presence of Lord Narasimha, an incarnation of Lord Vishnu.</p>
+                    </div>
+                    <img src="https://m.sakshi.com/sites/default/files/styles/cinema_main/public/article_images/2017/09/2/61407968502_625x300.jpg?itok=LqsG3WGM" class="anantapur-place-image1" />
+                </div>
+                <div class="anantapur-places-container1 d-flex flex-row justify-content-end" onclick="display('sectiondetailedview2')">
+                    <div class="one-container d-flex flex-column">
+                        <h1 class="anantapur-place-heading2 text-center">ISKCON Temple </h1>
+                        <p class="anantapur-place-description ml-2 p-2">ISKCON Temple in Anantapur is a vibrant spiritual haven dedicated to the worship of Lord Krishna.</p>
+                    </div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/ISKCON_TEMPLE-Anantapur-Dr._Murali_Mohan_Gurram_%283%29.jpg/1200px-ISKCON_TEMPLE-Anantapur-Dr._Murali_Mohan_Gurram_%283%29.jpg" class="anantapur-place-image1" />
+                </div>
+                <div class="anantapur-places-container1 d-flex flex-row justify-content-end" onclick="display('sectiondetailedview3')">
+                    <div class="one-container d-flex flex-column">
+                        <h1 class="anantapur-places-heading2 text-center">Puttaparthi Sai Baba</h1>
+                        <p class="anantapur-place-description ml-2 p-2">Puttaparthi Sai Baba, a renowned spiritual leader, and philanthropist, inspired millions with his teachings of love, compassion, and selfless service.</p>
+                    </div>
+                    <img src="https://www.saibabaofindia.com/Jan-2012-feb/mahasamadhi-sri-sathya-sai-baba-large-size-photo.jpg" class="anantapur-place-image1" />
+                </div>
+                <div class="anantapur-places-container1 d-flex flex-row justify-content-end" onclick="display('sectiondetailview4')">
+                    <div class="one-container d-flex flex-column">
+                        <h1 class="anantapur-places-heading2 text-center">Thimmamma Marrimanu</h1>
+                        <p class="anantapur-place-description ml-2 p-2">Thimmamma Marrimanu in Anantapur stands tall as the largest banyan tree in the world, captivating visitors with its majestic beauty and ancient presence.</p>
+                    </div>
+                    <img src="https://ferrebeekeeper.files.wordpress.com/2013/04/maui-hawaii-banyan-tree.jpg" class="anantapur-place-image1" />
+                </div>
+                <div class="anantapur-places-container1 d-flex flex-row justify-content-end" onclick="display('sectiondetailedview5')">
+                    <div class="one-container d-flex flex-column">
+                        <h1 class="anantapur-places-heading2 text-center">Veerabhadra Temple</h1>
+                        <p class="anantapur-place-description ml-2 p-2">Veerabhadra Temple in Anantapur stands as a glorious testament to the rich cultural heritage, showcasing exquisite architectural beauty and devotion to Lord Veerabhadra.</p>
+                    </div>
+                    <img src="https://th-i.thgim.com/public/incoming/5qxdfl/article65271522.ece/alternates/FREE_1200/4842_29_3_2022_19_18_6_1_LEPAKSHI1.JPG" class="anantapur-place-image1" />
+                </div>
+                <button class="btn btn-dark" onclick="display('sectionhome')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiondetailedview">
+        <div class="penno-avobilam-bg-container">
+            <div class="penno-avobilam-card-container">
+                <button class="btn btn-dark" onclick="display('sectionanantapurplaces')">Back</button>
+                <button class="btn-btn-primary" onclick="display('sectiondetailedview2')">Next Temple</button>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://touringwithpk.com/wp-content/uploads/2021/08/oct-2015-001a.jpg" class="lapakshi-image1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://touringwithpk.com/wp-content/uploads/2021/08/oct-2015-004a.jpg" class="lapakshi-image1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.connectingtraveller.com/images/localtip/1630855742images%20(29).jpeg" class="lapakshi-image1">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+                <div class="penno-avobilam-container1">
+                    <h1 class="penno-avobilam-heading mt-3">Penna Ahobilam</h1>
+                    <p class="penno-avobilam-description">Penna Ahobilam temple, located in the Nallamala Hills of Andhra Pradesh, has a fascinating history dating back to ancient times. It is believed to be the sacred place where Lord Narasimha, the half-man and half-lion incarnation of Lord Vishnu, appeared to protect his devotee Prahlada. The temple complex consists of nine shrines dedicated to different forms of Lord Narasimha. The main shrine, known as Ahobila Narasimha Swamy, is situated atop the hill. The temple has undergone several renovations and additions over the centuries, with contributions from various dynasties and devotees. It is considered one of the 108 Divya Desams, the holy abodes of Lord Vishnu. The architecture of the temple showcases a blend of Vijayanagara and Chola styles, adorned with intricate carvings and sculptures. Devotees visit the temple to seek blessings, participate in rituals, and experience the spiritual aura of this sacred place.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectiondetailedview2">
+        <div class="penno-avobilam-bg-container">
+            <div class="penno-avobilam-card-container">
+                <button class="btn btn-dark" onclick="display('sectionanantapurplaces')">Back</button>
+                <button class="btn-btn-primary" onclick="display('sectiondetailedview3')">Next temple</button>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#iskontemple" data-slide-to="0" class="active"></li>
+                        <li data-target="#iskontemple" data-slide-to="1"></li>
+                        <li data-target="#iskontemple" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://live.staticflickr.com/3832/9003801757_6551dff860_b.jpg" class="lapakshi-image1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://lh5.googleusercontent.com/p/AF1QipO54n_vHxKGrlwpIsROsYx9eMm6WbCZZtf9EdLl=w592-h404-n-k-no-v1" class="lapakshi-image1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/ISKCON_TEMPLE-Anantapur-Dr._Murali_Mohan_Gurram_%285%29.jpg" class="lapakshi-image1" />
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#iskontemple" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#iskontemple" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+                <div class="penno-avobilam-container1">
+                    <h1 class="penno-avobilam-heading mt-2">Iskon Temple</h1>
+                    <p class="penno-avobilam-description">ISKCON (International Society for Krishna Consciousness) Temple in Anantapur, Andhra Pradesh, is a magnificent spiritual complex dedicated to Lord Krishna. The temple features stunning architecture, with intricate carvings and vibrant paintings depicting Krishna's pastimes. It serves as a center for devotional activities, including daily rituals, kirtans (devotional singing), and spiritual discourses. The temple also offers various educational and cultural programs, promoting the teachings of Bhagavad Gita and the practice of bhakti yoga. It attracts devotees and visitors from all walks of life, providing an environment of peace, devotion, and spiritual enlightenment. The temple premises include beautiful gardens, a prasadam hall (offering sanctified vegetarian food), and a bookstore with spiritual literature. ISKCON Anantapur actively engages in charitable initiatives, reaching out to the needy and spreading the message of love and compassion.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectiondetailedview3">
+        <div class="penno-avobilam-bg-container">
+            <div class="penno-avobilam-card-container">
+                <button class="btn btn-dark" onclick="display('sectionanantapurplaces')">Back</button>
+                <button class="btn-btn-primary" onclick="display('sectiondetailview4')">Next temple</button>
+                <div id="#Penukondafort" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#penukondafort" data-slide-to="0" class="active"></li>
+                        <li data-target="#penukondafort" data-slide-to="1"></li>
+                        <li data-target="#penukondafort" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/e3/e5/21/sundharam-inside-view.jpg?w=1200&h=-1&s=1" class="lapakshi-image1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://resize.indiatvnews.com/en/resize/oldbucket/1200_-/mainnational/Mystery_surroun8191.jpg" class="lapakshi-image1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.southindiatour.org/images/andhra-pradesh-puttaparthi.jpg" class="lapakshi-image1">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#penukondafort" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#penukondafort" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+                <div class="penno-avobilam-container1">
+                    <h1 class="penno-avobilam-heading mt-2">Puttaparthi Sai Baba</h1>
+                    <p class="penno-avobilam-description">Puttaparthi Sai Baba, born as Sathyanarayana Raju in 1926, was a prominent spiritual leader who gained worldwide recognition. At a young age, he proclaimed himself as the reincarnation of Sai Baba of Shirdi. He started attracting followers and began spreading his teachings of love, service, and spiritual upliftment. Sai Baba established the Sri Sathya Sai Organization, which focused on providing education, healthcare, and social welfare services to the underprivileged. His ashram in Puttaparthi, Prasanthi Nilayam, became a center of spiritual learning and devotion. Sai Baba's reputation grew due to his reported miracles, healing abilities, and profound wisdom. He gained a massive following and touched the lives of millions through his teachings and philanthropic work until his passing in 2011.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectiondetailview4">
+        <div class="penno-avobilam-bg-container">
+            <div class="penno-avobilam-card-container">
+                <button class="btn btn-dark" onclick="display('sectionanantapurplaces')">Back</button>
+                <button class="btn-btn-primary" onclick="display('sectiondetailedview5')">Next Temple</button>
+                <div id="#Thimmammamarrimanu" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#Thimmammamarrimanu" data-slide-to="0" class="active"></li>
+                        <li data-target="#Thimmammamarrimanu" data-slide-to="1"></li>
+                        <li data-target="#Thimmammamarrimanu" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://ferrebeekeeper.files.wordpress.com/2013/04/maui-hawaii-banyan-tree.jpg" class="lapakshi-image1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Thimmamma_Marrimanu_Anantapur_dt_Andhra_JEG9125_%28cropped%29.JPG" class="lapakshi-image1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.trawell.in/admin/images/upload/712214236Anantapur_Thimmamma_Marrimanu_Main.jpg" class="lapakshi-image1">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#Thimmammamarrimanu" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#Thimmammamarrimanu" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+                <div class="penno-avobilam-container1">
+                    <h1 class="penno-avobilam-heading mt-2">Thimmamma Marrimanu</h1>
+                    <p class="penno-avobilam-description">Thimmamma Marrimanu, located in Anantapur district of Andhra Pradesh, is considered the largest banyan tree in the world. It is named after Thimmamma, a local woman who sacrificed her life for her husband's well-being. The tree is estimated to be over 550 years old and covers an extensive area. It has a sprawling canopy with numerous aerial roots that descend from its branches and form new trunks. Thimmamma Marrimanu holds great cultural and religious significance and is visited by pilgrims and tourists alike. It is a natural wonder and a testament to the resilience and beauty of nature. Efforts have been made to preserve and protect this remarkable tree for future generations to marvel at its grandeur.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="sectiondetailedview5">
+        <div class="penno-avobilam-bg-container">
+            <div class="penno-avobilam-card-container">
+                <button class="btn btn-dark" onclick="display('sectionanantapurplaces')">Back</button>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#leepakshi" data-slide-to="0" class="active"></li>
+                        <li data-target="#leepakshi" data-slide-to="1"></li>
+                        <li data-target="#leepakshi" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.thedivineindia.com/img/virbhadra-temple.jpg" class="lapakshi-image1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.astroved.com/astropedia/assets/images/temples/Veerabhadra-Temple.jpg" class="lapakshi-image1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://1.bp.blogspot.com/-HRhdWztRXyY/X2zPqj5Ka5I/AAAAAAAAERE/UUTsacMb_r0GQpQCNiphn3CNcdZxoUWrwCLcBGAsYHQ/s412/43912985_2230625717220833_6065601599611472773_n.jpg" class="lapakshi-image1">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#Lepakshi" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#Lepakshi" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+                <div class="penno-avobilam-container1">
+                    <h1 class="penno-avobilam-heading mt-2">Lepakshi Veerabhadra Temple</h1>
+                    <p class="penno-avobilam-description">Lepakshi Veerabhadra Temple, located in Anantapur district of Andhra Pradesh, has a rich historical significance dating back to the 16th century. It was built during the Vijayanagara Empire by the brothers Virupanna and Viranna, who were devout followers of Lord Veerabhadra. The temple showcases stunning architecture and intricate carvings depicting mythological scenes and deities. It is renowned for its suspended pillar, known as the "Aakaasa Sthambha," which hangs without any support. The temple also features a colossal monolithic Nandi (bull) statue, carved out of a single granite rock. Lepakshi Veerabhadra Temple holds cultural and religious importance and is a popular pilgrimage site. It stands as a testament to the artistic grandeur and architectural brilliance of the Vijayanagara era.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
