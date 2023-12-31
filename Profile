@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/657b28fc87.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="container-step">
+            <div class="rows">
+
+                <div class="col-12 col-md-12 col-xl-12">
+
+                    <h1 class="main-heading ml-5">STEP<br />
+                        INTO <br />
+                        MY <br />
+                        WORLD </h1>
+                </div>
+
+                <div class="text-center">
+                    <button class="btn" onclick="display('sectionbio')">Bio</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sectionbio">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="profile-container">
+                        <div class="container1">
+                            <div class="text-center">
+                                <img src="https://res.cloudinary.com/dtjwelcoh/image/upload/v1701189858/Screenshot_2023-11-28_221328_cxpkog.png" class="profile" />
+                                <h1 class="heading">PASALURU KUMMARA RAMESH</h1>
+                                <p class="paragrapgh">Software Devolopment || Front-End Devolopment || MERN Devolopment </p>
+                            </div>
+                        </div>
+
+                        <div class="container2">
+                            <img src="https://i.pinimg.com/originals/88/6b/15/886b1598b09c5c588004570c4fd1e28c.gif" class="linkedin mr-5" />
+                            <a href="https://drive.google.com/file/d/1WbAQBpaWBzNHsq8M-b2bLyZStx0mjQ9l/view?usp=sharing" target="_blank" class="name">Resume</a>
+                        </div>
+
+
+                        <div class="container2">
+                            <img src="data:image/png;base64,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" class="linkedin mr-5" />
+                            <a href="https://drive.google.com/file/d/1tcPfcUnbWe6pAqmzLRA_8O7DBTrR5d1n/view?usp=sharing" target="_blank" class="name">Bio data</a>
+                        </div>
+
+                        <div class="container2">
+                            <img src="https://cliply.co/wp-content/uploads/2021/02/372102050_LINKEDIN_ICON_TRANSPARENT_1080.gif" class="linkedin mr-5" />
+                            <a href="https://www.linkedin.com/in/pasalurukummara-ramesh-a6a433219" target="_blank" class="name">Linkedin</a>
+                        </div>
+                        <div class="container2">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Portfolio_.gif" class="linkedin mr-5" />
+                            <a href="https://rameshportfolir.ccbp.tech/" class="name">Portfolio</a>
+                        </div>
+                        <div class="container2">
+                            <img src="https://i.pinimg.com/originals/d0/e2/90/d0e2905beca22e46b7d3c6374cd0d956.gif" class="linkedin mr-5" />
+                            <a href="https://www.facebook.com/profile.php?id=100017960136368" target="_blank" class="name">Facebbok</a>
+                        </div>
+                        <div class="container2">
+                            <img src="https://cliply.co/wp-content/uploads/2019/07/371907300_INSTAGRAM_ICON_TRANSPARENT_400.gif" class="linkedin mr-5" />
+                            <a href="https://www.instagram.com/pk__ramesh/" target="_blank" class="name">Instagram</a>
+                        </div>
+                        <div class="container2">
+                            <img src="https://media.tenor.com/3MtdCRIPZUMAAAAj/whatsapp.gif" class="linkedin mr-5" />
+                            <a href="https://wa.me/+916302383536" target="_blank" class="name">Whatsapp</a>
+                        </div>
+                        <div class="container2">
+                            <h1 class="name">Contact Us</h1>
+
+                        </div>
+
+                        <div class="container3">
+                            <div class="text-center">
+                                <a href="https://wa.me/+916302383536" target="_blank" class="icon ml-5"><i class="fa-brands fa-whatsapp fa-fade" style="color: #4287f5;"></i></a>
+                                <a href="https://www.linkedin.com/in/pasalurukummara-ramesh-a6a433219" target="_blank" class="icon ml-4"><i class="fa-brands fa-linkedin fa-shake" style="color:#4287f5;"></i></a>
+                                <a href="mailto:pkrameshece@gmail.com" class="icon ml-4"><i class="fa-sharp fa-regular fa-envelope fa-flip" style="color: #4287f5;"></i></a>
+                                <a href="tel:+916302383536" class="icon ml-5"><i class="fa-sharp fa-solid fa-phone fa-fade" style="color: #4287f5;"></i></a>
+
+                            </div>
+
+
+
+                        </div>
+                        <button class="btn" onclick="display('sectionhome')">Home</button>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+
+.container-step {
+    background-image: linear-gradient(-225deg, #2CD8D5 0%, #6B8DD6 48%, #8E37D7 100%);
+    width: 100vw;
+    height: 100vh;
+    border-radius: 150px;
+
+
+}
+
+.cap-image {
+    height: 300px;
+    width: 300px;
+}
+
+.main-heading {
+    color: #ffffff;
+    font-size: 100px;
+    font-family: "fantasy";
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.anchor {
+    color: #ff9966;
+    font-family: "emoji";
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+}
+
+.Back {
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+.welcome {
+    height: 500px;
+    width: 300px;
+}
+
+.btn {
+    background-image: radial-gradient(#dc3545, #dc3545, #6c757d, #007bff);
+    color: #ffffff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.container {
+    background-color: #fab907;
+    background-size: cover;
+}
+
+.profile {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    text-align: center;
+    border-style: solid;
+
+}
+
+.heading {
+    color: #4502ed;
+    font-family: "Blippo";
+    font-size: 35px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-stretch: semi-expanded;
+}
+
+.paragrapgh {
+    color: #054214;
+    font-size: 30px;
+    font-family: "roboto";
+
+}
+
+.container2 {
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 70px;
+}
+
+.name {
+    color: #6e2a41;
+    font-family: "Roboto";
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.linkedin {
+    height: 65px;
+    width: 55px;
+}
+
+.container3 {}
+
+.icon {
+    color: #ffd700;
+    font-size: 30px;
+}
+
+.profile-container {
+    background-color: #f0efe9;
+    border-radius: 25px;
+}
+
+.frist-container {
+    background-color: #f0efe9;
+}
+
+.container2 {
+    background-color: #EFE4E1;
+}
