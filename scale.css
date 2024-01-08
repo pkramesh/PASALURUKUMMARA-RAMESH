@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #050a87;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    padding: 2em;
+}
+
+.team-member {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: green;
+}
+
+.member-card {
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.highlighted-text {
+    font-family: 'YourHighlightedFont', sans-serif;
+    color: #ff9900;
+}
+
+.image {
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    .member-card {
+        width: 100%;
+    }
+}
